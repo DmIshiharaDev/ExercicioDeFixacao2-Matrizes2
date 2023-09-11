@@ -25,11 +25,13 @@
             }
         }
 
-        Console.WriteLine();
-        Console.WriteLine("Diagonal Principal:");
+        Console.Write("Você quer a localização de qual número dentro da matriz? ");
+        int x = int.Parse((string)Console.ReadLine());
+
+       
         for ( int i = 0; i < m; ++i )
         {
-            Console.Write(mat[i, i] + " ");
+            for (int j = 0; j < n; j++)
         }
     }
 }
